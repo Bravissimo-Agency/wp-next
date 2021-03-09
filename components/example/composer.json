@@ -1,0 +1,39 @@
+{
+    "name": "wp-next/test-component",
+    "description": "wp-next-test-component",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kim Larsson",
+            "email": "kim@bravissimo.se",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.22"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WpNext\\TestComponent\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "wpNext": {
+            "providers": [
+                "WpNext\\TestComponent\\TestComponentServiceProvider"
+            ],
+
+            "js": [
+                "wp-next/wp-next/components/example/resources/components/index.js"
+            ]
+        }
+    }
+}
