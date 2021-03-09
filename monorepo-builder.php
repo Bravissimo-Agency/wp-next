@@ -25,6 +25,7 @@ return static function (ContainerConfigurator $containerConfigurator): void {
     $parameters->set(Option::DIRECTORIES_TO_REPOSITORIES_CONVERT_FORMAT, ConvertFormat::PASCAL_CASE_TO_KEBAB_CASE);
     $parameters->set(Option::DIRECTORIES_TO_REPOSITORIES, [
         'components/js/GoogleMaps' => 'git@github.com:Bravissimo-Agency/google-maps.git',
+        'components/js/Modal' => 'git@github.com:Bravissimo-Agency/modal.git',
     ]);
 
     $services = $containerConfigurator->services();
