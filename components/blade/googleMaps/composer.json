@@ -1,6 +1,6 @@
 {
-    "name": "wp-next/test-component",
-    "description": "wp-next-test-component",
+    "name": "wp-next/google-maps",
+    "description": "wp-next-google-maps-component",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "WpNext\\TestComponent\\": "src"
+            "WpNext\\GoogleMapsComponent\\": "src"
         }
     },
     "config": {
@@ -28,10 +28,7 @@
     "extra": {
         "wpNext": {
             "providers": [
-                "WpNext\\TestComponent\\TestComponentServiceProvider"
-            ],
-            "js": [
-                "wp-next/wp-next/components/example/resources/components/index.js"
+                "WpNext\\GoogleMapsComponent\\GoogleMapsComponentServiceProvider"
             ]
         }
     }

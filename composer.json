@@ -3,10 +3,8 @@
     "extra": {
         "wpNext": {
             "providers": [
-                "WpNext\\TestComponent\\TestComponentServiceProvider"
-            ],
-            "js": [
-                "wp-next/wp-next/components/example/resources/components/index.js"
+                "WpNext\\ModalComponent\\ModalComponentServiceProvider",
+                "WpNext\\GoogleMapsComponent\\GoogleMapsComponentServiceProvider"
             ]
         }
     },
@@ -23,7 +21,9 @@
             "WpNext\\Ajax\\": "packages/Ajax/src",
             "WpNext\\Console\\": "packages/Console/src",
             "WpNext\\Core\\": "packages/Core/src",
+            "WpNext\\GoogleMapsComponent\\": "components/blade/googleMaps/src",
             "WpNext\\Hook\\": "packages/Hook/src",
+            "WpNext\\ModalComponent\\": "components/blade/modal/src",
             "WpNext\\PostType\\": "packages/PostType/src",
             "WpNext\\Routing\\": "packages/Routing/src",
             "WpNext\\Support\\": "packages/Support/src",
@@ -36,7 +36,9 @@
         "wp-next/ajax": "self.version",
         "wp-next/console": "self.version",
         "wp-next/core": "self.version",
+        "wp-next/google-maps": "self.version",
         "wp-next/hook": "self.version",
+        "wp-next/modal": "self.version",
         "wp-next/post-type": "self.version",
         "wp-next/routing": "self.version",
         "wp-next/support": "self.version",
