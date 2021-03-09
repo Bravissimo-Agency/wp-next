@@ -26,6 +26,7 @@ return static function (ContainerConfigurator $containerConfigurator): void {
     $parameters->set(Option::DIRECTORIES_TO_REPOSITORIES, [
         'components/js/GoogleMaps' => 'git@github.com:Bravissimo-Agency/google-maps.git',
         'components/js/Modal' => 'git@github.com:Bravissimo-Agency/modal.git',
+        'components/js/VueDirectives' => 'git@github.com:Bravissimo-Agency/vue-directives.git',
     ]);
 
     $services = $containerConfigurator->services();
