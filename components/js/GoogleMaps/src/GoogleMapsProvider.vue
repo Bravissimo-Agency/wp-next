@@ -1,6 +1,6 @@
 <script>
 import initGoogleMap from './initGoogleMap.js';
-import { debounce } from '../../utils.js';
+import { debounce } from './utils.js';
 
 export default {
     props: {
