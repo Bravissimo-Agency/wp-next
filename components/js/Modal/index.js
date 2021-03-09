@@ -4,15 +4,15 @@ export const EventBus = new Vue();
 const components = {
     DialogProvider: () =>
         import(
-            /* webpackChunkName: "dialog-provider" */ './DialogProvider.vue'
+            /* webpackChunkName: "dialog-provider" */ './src/DialogProvider.vue'
         ),
     DialogTriggerProvider: () =>
         import(
-            /* webpackChunkName: "dialog-trigger-provider" */ './DialogTriggerProvider.vue'
+            /* webpackChunkName: "dialog-trigger-provider" */ './src/DialogTriggerProvider.vue'
         ),
     DialogCloseProvider: () =>
         import(
-            /* webpackChunkName: "dialog-close-provider" */ './DialogCloseProvider.vue'
+            /* webpackChunkName: "dialog-close-provider" */ './src/DialogCloseProvider.vue'
         ),
 };
 
