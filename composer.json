@@ -21,9 +21,15 @@
             "WpNext\\Ajax\\": "packages/Ajax/src",
             "WpNext\\Console\\": "packages/Console/src",
             "WpNext\\Core\\": "packages/Core/src",
-            "WpNext\\GoogleMapsComponent\\": "components/blade/googleMaps/src",
+            "WpNext\\GoogleMapsComponent\\": [
+                "components/blade/GoogleMaps/src",
+                "components/blade/googleMaps/src"
+            ],
             "WpNext\\Hook\\": "packages/Hook/src",
-            "WpNext\\ModalComponent\\": "components/blade/modal/src",
+            "WpNext\\ModalComponent\\": [
+                "components/blade/Modal/src",
+                "components/blade/modal/src"
+            ],
             "WpNext\\PostType\\": "packages/PostType/src",
             "WpNext\\Routing\\": "packages/Routing/src",
             "WpNext\\Support\\": "packages/Support/src",
