@@ -1,5 +1,5 @@
 <script>
-import initGoogleMap from './initGoogleMap.js';
+import initGoogleMaps from './initGoogleMaps.js';
 import { debounce } from './utils.js';
 
 export default {
@@ -48,7 +48,7 @@ export default {
     }),
 
     async mounted () {
-        this.google = await initGoogleMap(this.apiKey);
+        this.google = await initGoogleMaps(this.apiKey);
 
         this.init();
 
