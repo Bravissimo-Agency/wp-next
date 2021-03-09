@@ -1,5 +1,5 @@
 import EscDirective from './src/EscDirective';
 
-export default {
+export {
     EscDirective
 };
